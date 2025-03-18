@@ -1,6 +1,10 @@
 {
   "name": "@hestiatechnology/components",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hestiatechnology/hst-components.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
