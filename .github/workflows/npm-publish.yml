@@ -29,7 +29,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
           scope: "@hestiatechnology"
       - run: npm ci
-      #- run: npm run build
+      - run: npm run build
       - run: npm publish
         working-directory: "dist/hst-components"
         env:
